@@ -5,3 +5,4 @@ urlpatterns = [
     path('', forum_views.home, name='home'),
     path('question/<int:pk>/', forum_views.detail, name='detail'),
 ]
+#static url
